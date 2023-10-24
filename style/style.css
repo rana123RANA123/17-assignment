@@ -1,0 +1,77 @@
+
+#original-string{
+    background-color: rgb(32, 31, 31);
+    font-size: xx-large;
+}
+.navbar{
+    background-color: rgb(32, 31, 31) !important;
+}
+main{
+    flex: 1 0 auto;
+    background-color: rgb(237, 242, 223);
+}
+#lastbtn:hover{
+    background-color: rgb(32, 31, 31)
+}
+
+footer{
+    background-color: rgb(32, 31, 31)
+}#btn-box.btn{
+    margin-bottom: 8px;
+    min-width: 43%;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+#btn-box button{
+    margin-bottom: 8px;
+    min-width: 43%;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.btn:last-child{
+    margin-bottom: 0px;
+}
+#form{
+    min-height: 180px;
+}
+#clear-output{
+    min-width: 18%;
+}
+#display-name{
+    color: green;
+    font-size: large;
+}
+
+#buttons{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#buttons .btn{
+    width: 240px; 
+
+}
+.input {
+    width: 230px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    float: left;
+
+}
+#add-btn{
+    width: 230px;
+    border: none;
+    background-color: rgb(19, 128, 19);
+    padding: 5px 0px;
+    border-radius: 7px;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 160px;
+}
